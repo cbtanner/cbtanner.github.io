@@ -1,19 +1,31 @@
+<!-- Comment by using ctrl / after typing -->
 <!DOCTYPE html>
 <html> 
 
 <head> 
     <title>Chris's Website</title>
+  <!-- Include a style reference guide for the code below by creating a Style.css and then defining the link-->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-<h1> When considering making a website you need to know a few things </h1>
+<h1 class="font title"> Chris' Christmas Wishlist </h1>
 
-<ol>
-    <li>How to actually code in HTML</li>
-    <li>What you actually want your website to say</li>
-</ol>
-
-<p>The <strong><u>second</u></strong> part is the one I've always struggled with</p>
+<table>
+    <tr>
+        <th class="font fontsize">Sexy Jackets</th>
+        <th class="font fontsize">Indoor Greenhouse</th>
+    </tr>
+        <tr>
+          <td><img class="picsize" src="goldjacket.jpg"></td>
+          <td><img class="picsize" src="greenhouse.jpg"></td>
+        </tr>
+    <tr>
+          <td class="center"> Priceless </td>
+          <td class="center"> $XXX </td>
+    </tr>
+</table>
+</body>
 
 <h4>
     <a href="about.html">
@@ -21,21 +33,6 @@
     </a>
 </h4>
 
-<table>
-    <tr>
-        <th>Torres Del Paine</th>
-        <th>Italy</th>
-    </tr>
-        <tr>
-          <td><img src="torres.jpg"></td>
-          <td>TBD Picture</td>
-        </tr>
-    <tr>
-          <td> TBD </td>
-          <td> TBD </td>
-    </tr>
-</table>
-</body>
 
 </html>
 
@@ -45,4 +42,15 @@
         <img src="torres.jpg">
     </a>
     </p>
+<ol>
+    <li>Warm places</li>
+    <li>What you actually want your website to say</li>
+</ol>
+
+<p id="first">The <strong><u>second</u></strong> part is the one I've always struggled with</p>
+<p id="second" class="bigblack">I'm doing some more typing here</p>
+<!-- Use an "id" to define a specific type of CSS aspects, then in the CSS instead of generic "p" you define as "First"  -->
+<p class="bigblack">TACOS!</p>
+<!-- class is like "id" but can be layered -->
+<p class="bigblack center">More stuff right here</p>
 -->

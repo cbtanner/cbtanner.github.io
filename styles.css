@@ -1,0 +1,54 @@
+/* Always remember to include the semicolon after defining something */
+/* Define specific styles here by stating the script type (e.g. h1, p, etc.), then the aspect to define */
+body{
+   background-image: url(torres.jpg);
+   background-attachment: fixed;
+   background-size: cover; 
+}
+.font{
+    font-family: 'Trebuchet MS';
+}
+.fontsize{
+    font-size: 15px;
+}
+.title{
+    font-size: 30px;
+}
+.picsize{
+    width: 200px;
+    height: 300px;
+}
+.class{
+    text-align: center;
+}
+
+
+
+
+
+/* h1 {
+    color: red;
+    font-size: 50px;
+   }
+p {
+    color: purple;
+}
+#first{
+    color: blue;
+}
+#second{
+    color: yellowgreen;
+}
+img{
+    width: 200px;
+}
+#Torres{
+    width: 300px;
+}
+.bigblack{
+    color: black;
+    font-size: 40px;
+}
+.center{
+    text-align: center;
+} */
