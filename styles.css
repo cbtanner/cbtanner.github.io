@@ -1,54 +1,43 @@
-/* Always remember to include the semicolon after defining something */
-/* Define specific styles here by stating the script type (e.g. h1, p, etc.), then the aspect to define */
-body{
-   background-image: url(torres.jpg);
-   background-attachment: fixed;
-   background-size: cover; 
+.Montserrat{ 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
 }
-.font{
-    font-family: 'Trebuchet MS';
-}
-.fontsize{
-    font-size: 15px;
-}
-.title{
-    font-size: 30px;
-}
-.picsize{
-    width: 200px;
-    height: 300px;
-}
-.class{
-    text-align: center;
+.Baloo{
+    font-family: 'Baloo Thambi', cursive;
+    color: white;
 }
 
-
-
-
-
-/* h1 {
-    color: red;
-    font-size: 50px;
-   }
-p {
-    color: purple;
+.bigtext{
+    font-size: 80px;
+    color: white;
 }
-#first{
-    color: blue;
-}
-#second{
-    color: yellowgreen;
-}
-img{
-    width: 200px;
-}
-#Torres{
-    width: 300px;
-}
-.bigblack{
-    color: black;
+.medtext{
     font-size: 40px;
+    color: whitesmoke;
+}
+.bluecheetah{
+    background-image: url(bluecheetah.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.boldfont{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.leopard{
+    background-image: url(leopard.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 .center{
     text-align: center;
-} */
+    align-self: center;
+    align-content: center;
+}
+.magenta{
+    background-color: #9c4065;
+}
+.imgsize{
+    background-size: 100px;
+}
